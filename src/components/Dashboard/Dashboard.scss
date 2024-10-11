@@ -1,0 +1,26 @@
+.container-fluid{
+        .content {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: row;
+
+        .card{
+            width: 18rem;
+            margin: 15px;
+            flex: 0 1 auto;
+        }
+        .toast-body {
+            padding: 0px; 
+            word-wrap: break-word;
+        } 
+        .table {
+            margin-bottom: 0px; 
+        }  
+        .toast {
+            max-width: 100%;
+            width: 100%;
+        }     
+    }
+    
+}

@@ -1,0 +1,18 @@
+.navbar {
+    .container-fluid {
+        a{
+            .rounded-circle{
+                height: 60px;
+            }
+        }
+        .navbar-collapse {
+            form {
+                button.btn.btn-primary {
+                    background-color: #ed5d9c !important;
+                    border-radius: 5px;
+                }
+            }
+        }
+
+    }
+}

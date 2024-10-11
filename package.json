@@ -1,0 +1,51 @@
+{
+  "name": "dashboard",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@1stquad/react-bootstrap-datetimepicker": "^1.0.25",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@fontsource/inter": "^5.0.18",
+    "@mui/joy": "^5.0.0-beta.36",
+    "@mui/material": "^5.15.20",
+    "@mui/x-date-pickers": "^7.7.0",
+    "ag-charts-react": "^9.3.1",
+    "bootstrap": "^5.3.3",
+    "cdbreact": "^1.5.19",
+    "date-fns": "^3.6.0",
+    "fbjs": "^3.0.5",
+    "isomorphic-fetch": "^3.0.0",
+    "mdbreact": "^4.27.0",
+    "node-fetch": "^3.3.2",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.3",
+    "react-circular-progressbar": "^2.1.0",
+    "react-datepicker": "^7.1.0",
+    "react-dom": "^18.2.0",
+    "react-pro-sidebar": "^1.1.0",
+    "react-router-dom": "^6.23.1",
+    "sass": "^1.77.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "vite": "^5.2.0"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  }
+}
