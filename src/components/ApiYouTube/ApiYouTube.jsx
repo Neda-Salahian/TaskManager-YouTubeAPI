@@ -40,7 +40,7 @@ function ApiYouTube() {
     return (
         <Container fluid>
             <Row>
-                <img src="/public/images/header.png" alt="Kita Kids Tv" className="mb-3" />
+                <img src="/images/header.png" alt="Kita Kids Tv" className="mb-3" />
             </Row>
             {error ? (
                 <p>{error.includes('quota') ? 'The request cannot be completed because you have exceeded your quota.' : error}</p>
