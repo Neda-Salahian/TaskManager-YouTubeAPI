@@ -16,7 +16,7 @@ import Register from '../Register/Register';
 //IMPORT SCSS
 import './NavBar.scss';
 //IMPORT IMAGES
-import logo from '../../../public/images/channels4_profile.jpg';
+// import logo from '../../../public/images/channels4_profile.jpg';
 function NavBar({ isLoggedIn, setIsLoggedIn }) {
     const [openModalLogin, setOpenModalLogin] = useState(false);
     const [openModalRegister, setOpenModalRegister] = useState(false);
@@ -53,7 +53,7 @@ function NavBar({ isLoggedIn, setIsLoggedIn }) {
                     {isLoggedIn ? (<NavLink to="/Admin" className="navbar-brand">
                         Dashboard Admin
                     </NavLink>) : (<Navbar.Brand href="/">
-                        <Image src={logo} roundedCircle />
+                        <Image src="/images/channels4_profile.jpg" roundedCircle />
                     </Navbar.Brand>)}
 
                     <Navbar.Toggle aria-controls="navbarScroll" />

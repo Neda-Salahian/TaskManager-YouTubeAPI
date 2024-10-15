@@ -8,7 +8,7 @@ import Row from 'react-bootstrap/Row';
 //IMPORT SCSS
 import './ApiYouTube.scss';
 //IMPORT IMAHGES
-import header from '../../../public/images/header.jpg';
+// import header from 'public/images/header.png';
 //IMPORT @MUI
 import CircularProgress from '@mui/joy/CircularProgress';
 import { Link } from "react-router-dom";
@@ -40,7 +40,7 @@ function ApiYouTube() {
     return (
         <Container fluid>
             <Row>
-                <img src={header} alt="Kita Kids Tv" className="mb-3" />
+                <img src="/public/images/header.png" alt="Kita Kids Tv" className="mb-3" />
             </Row>
             {error ? (
                 <p>{error.includes('quota') ? 'The request cannot be completed because you have exceeded your quota.' : error}</p>
