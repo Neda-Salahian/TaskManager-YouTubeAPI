@@ -16,7 +16,7 @@ import Register from '../Register/Register';
 //IMPORT SCSS
 import './NavBar.scss';
 //IMPORT IMAGES
-import logo from '../../../dist/assets/images/channels4_profile.jpg';
+import logo from '../../../public/images/channels4_profile.jpg';
 function NavBar({ isLoggedIn, setIsLoggedIn }) {
     const [openModalLogin, setOpenModalLogin] = useState(false);
     const [openModalRegister, setOpenModalRegister] = useState(false);

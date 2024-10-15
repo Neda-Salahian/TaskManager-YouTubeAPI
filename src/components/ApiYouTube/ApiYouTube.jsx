@@ -8,7 +8,7 @@ import Row from 'react-bootstrap/Row';
 //IMPORT SCSS
 import './ApiYouTube.scss';
 //IMPORT IMAHGES
-import header from '../../../dist/assets/images/header.png';
+import header from '../../../public/images/header.jpg';
 //IMPORT @MUI
 import CircularProgress from '@mui/joy/CircularProgress';
 import { Link } from "react-router-dom";
