@@ -35,7 +35,7 @@ function Analytics() {
         const taskCounts = Array(12).fill(0);
 
         storedTasks.forEach(task => {
-            const month = moment(task.dateCreated, 'YYYY-MM-DD').month(); // Get the month (0-11)
+            const month = moment(task.dateStart, 'YYYY-MM-DD').month(); // Get the month (0-11)
             taskCounts[month]++;
         });
 
@@ -56,7 +56,7 @@ function Analytics() {
         const projectCounts = Array(12).fill(0);
 
         storedProjects.forEach(project => {
-            const month = moment(project.dateCreated, 'YYYY-MM-DD').month(); // Get the month (0-11)
+            const month = moment(project.startDate, 'YYYY-MM-DD').month(); // Get the month (0-11)
             projectCounts[month]++;
         });
 
