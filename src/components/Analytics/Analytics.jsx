@@ -79,12 +79,19 @@ function Analytics() {
                     <Col md={2}>
                         <Sidebar />
                     </Col>
-                    
-                    <Col md={4}>
-                        <AgChartsReact options={chartOptions} />
-                    </Col>
-                    <Col md={4}>
-                        <AgChartsReact options={chartProjectOptions} />
+                    <Col md={10}>
+                        <Row>
+                            <Col md={12} style={{ marginBottom: '20px' }}>
+                                <div style={{ height: '400px' }}>
+                                    <AgChartsReact options={chartOptions} />
+                                </div>
+                            </Col>
+                            <Col md={12}>
+                                <div style={{ height: '400px' }}>
+                                    <AgChartsReact options={chartProjectOptions} />
+                                </div>
+                            </Col>
+                        </Row>
                     </Col>
                 </Row>
             </Container>
